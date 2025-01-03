@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.tigris__Banner {
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+    background-image: url(IMAGE/banner-drinks.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tigris__Banner .menu {
+    width: 100%;
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 22px;
+}
+
+.tigris__Banner .menu img {
+
+    width: 100%;
+    max-width: 144px;
+    cursor: pointer;
+
+}
+
+.tigris__Banner .titulo__tigris {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+}
+
+.titulo__tigris h1 {
+    width: 100%;
+    max-width: 600px;
+    font-size: 60px;
+    color: white;
+    font-family: "Mona Sans", serif;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo__tigris button {
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color: #071a02;
+    border: none;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 0.1;
+    letter-spacing: -3px;
+    cursor: pointer;
+}
+
+.titulo__tigris button:hover {
+    background-color: white;
+    color: #071a02;
+    transition: 2s;
+}
+
+
+.flavors {
+    width: 100%;
+    height: 400px;
+    height: auto;
+    background-color: #071a02;
+}
+
+.text__Flavors {
+    padding: 100px 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text__Flavors p {
+    width: 150px;
+    color: white;
+    background-color: #ff0271;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    position: relative;
+    transform: rotate(-7deg);
+    font-family: "Mona Sans", serif;
+    font-weight: 800;
+    letter-spacing: -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+    top: 50px;
+}
+
+.text__Flavors h1 {
+    font-size: 120px;
+    font-family: "Mona Sans", serif;
+    font-weight: 800;
+    color: white;
+    letter-spacing: -8px;
+    position: relative;
+    z-index: 1;
+}
+
+.fruits__flavors {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fruit__item {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fruit__item img {
+    width: 100%;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.fruit__item h1 {
+    font-family: "Mona sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+.boots__Energy {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    background-color: #071a02;
+    padding-top: 100px;
+}
+
+.tigris__img__bottle {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-image: url(IMAGE/bubbles__water.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+.bottles img {
+    width: 302px;
+    position: relative;
+    z-index: 1;
+}
+
+.descriptions1 img,
+.descriptions2 img {
+    max-width: 150px;
+    max-height: 150px;
+    position: relative;
+    z-index: 3;
+    transform: rotate(-20deg);
+}
+
+.g__fiber {
+    left: 80px;
+}
+
+.g__bcaas {
+    top: 150px;
+    left: 150px;
+}
+
+.Zero__sugar {
+    top: 90px;
+    right: 130px;
+}
+
+.zero_gmos {
+    top: 300px;
+    right: 50px;
+}
+
+
+.tigris__ h1 {
+    width: 100%;
+    max-width: 505px;
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+
+    margin-bottom: 20px;
+}
+
+.tigris__ p {
+    width: 100%;
+    max-width: 400px;
+    color: white;
+}
+
+.hours__of__energy,
+.no__jitters,
+.nutrient__Rich,
+.zero__Sugar {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #a7ffb7;
+    border-radius: 50pc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+}
+
+.hours__of__energy p,
+.no__jitters p,
+.nutrient__Rich p,
+.zero__Sugar p {
+    font-size: 16px;
+}
+
+.hours__of__energy img,
+.no__jitters img,
+.nutrient__Rich img,
+.zero__Sugar img {
+    width: 100%;
+    height: 100%;
+    max-width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.descptions__energy {
+    background-color: #ff0271;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+@media (max-width: 1116px) {
+
+    .fruits__flavors {
+        display: grid;
+        grid-template-columns: 4fr 4fr;
+    }
+
+    .fruit__item img {
+        width: 200px;
+    }
+
+    .fruit__item h1 {
+        font-size: 50px;
+    }
+
+    .boots__Energy {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .tigris__img__bottle {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-position: center;
+    }
+
+    .g__fiber {
+   left: 190px;
+    }
+    
+    .g__bcaas {
+top: 280px;
+    }
+    
+    .Zero__sugar {
+right: 100px;
+    }
+    
+    .zero_gmos {
+top: 450px;
+right: 190px;
+    }
+
+}
+
+
+@media (max-width: 740px) {
+    .text__Flavors h1 {
+        font-size: 80px;
+    }
+
+    .text__Flavors p {
+        width: 100px;
+        font-size: 20px;
+    }
+
+    .fruit__item h1 {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:680px) {
+    .titulo__tigris h1 {
+        letter-spacing: -2px;
+        font-size: 30px;
+    }
+
+    .titulo__tigris button {
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+        letter-spacing: -1px;
+    }
+}
+
+
+@media (max-width:350px) {
+    .text__Flavors h1 {
+        font-size: 70px;
+    }
+
+    .text__Flavors p {
+        width: 90px;
+        font-size: 20px;
+    }
+
+}
