@@ -205,6 +205,182 @@
     padding: 20px 40px;
 }
 
+.boots__of__energy {
+    width: 100%;
+    height: 102vh;
+    background-color: #071a02;
+    display: flex;
+}
+
+.energy__Tigris {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(IMAGE/bubbles.png);
+    background-size: cover;
+    background-size: 50%;
+}
+
+.description__1,
+.description__2,
+.description__3,
+.description__4 {
+    width: 100%;
+    max-width: 150px;
+    min-width: 50px;
+    z-index: 999;
+    display: flex;
+    position: relative;
+    margin: 0px 20px;
+}
+
+.description__1 {
+    bottom: 150px;
+    left: 40px;
+}
+
+.description__2 {
+    left: 100px;
+}
+
+
+.description__3 {
+    right: 100px;
+}
+
+.description__4 {
+    top: 140px;
+    right: 50px;
+}
+
+.tigris__bottle {
+    width: 100%;
+    max-width: 302px;
+    z-index: 9;
+}
+
+.energy__boots {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.energy__boots h1 {
+    width: 100%;
+    max-width: 500px;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: -5px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.energy__boots p {
+    width: 100%;
+    max-width: 500px;
+    font-size: 16px;
+    color: white;
+}
+
+.elevate__your__focus {
+    width: 100%;
+    height: auto;
+    background-color: #071a02;
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.elevate__your__focus h1 {
+    font-size: 60px;
+    font-family: 'poppins', sans-serif;
+    color: white;
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: -5px;
+}
+
+.elevate__your__focus p {
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    color: white;
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+}
+
+.box__ {
+    width: 100%;
+    height: 300;
+    display: flex;
+}
+
+.box__Watermelon {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    z-index: 9;
+    margin: 100px 20px;
+}
+
+.watermelon {
+    width: 100%;
+    height: 10px;
+    z-index: 999;
+bottom: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box__Watermelon h1 {
+    width: 100%;
+    max-width: 500px;
+    font-size: 40px;
+    color: white;
+}
+
+.box__Watermelon button{
+    width: 120px;
+    height: 50px;
+    color: #071a02;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 0.1;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.box__Watermelon button:hover {
+    color: white;
+    background-color: #071a02;
+    transition: 2s;
+}
+
 @media (max-width: 1116px) {
 
     .fruits__flavors {
@@ -219,7 +395,33 @@
     .fruit__item h1 {
         font-size: 50px;
     }
+
+    .boots__of__energy {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .energy__Tigris {
+        width: 100%;
+
+    }
+
+    .energy__boots {
+        width: 100%;
+        height: 100vh;
+        background-color: #071a02;
+        padding: 100px 20px;
+
+    }
+
+.elevate__your__focus {
+    width: 100%;
+    height: 300vh;
 }
+
+}
+
+
 
 @media (max-width: 899px) {
     .location h1 {
@@ -261,6 +463,17 @@
 
 }
 
+@media (max-width: 490px) {
+    .energy__Tigris {
+        display: none;
+    }
+
+    .energy__boots {
+        width: 100%;
+        height: 100%;
+    }
+
+}
 
 @media (max-width:350px) {
     .text__Flavors h1 {
